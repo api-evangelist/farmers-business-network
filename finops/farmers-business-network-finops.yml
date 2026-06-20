@@ -1,0 +1,100 @@
+specification: FinOps Framework
+specificationVersion: '1.0'
+schema: https://www.finops.org/framework/
+provider: Farmers Business Network
+providerId: farmers-business-network
+created: '2026-06-20'
+modified: '2026-06-20'
+reconciled: false
+tags:
+- AgTech
+- Agriculture
+- Marketplace
+- Farm Analytics
+- AI Advisor
+- FinOps
+- Cost Management
+- FOCUS
+description: >-
+  FinOps view of Farmers Business Network spend. FBN membership is free and there
+  is no usage-metered developer API to govern. Member cost lands instead on
+  transactional marketplace purchases through FBN Direct (inputs, seed,
+  fertilizer, livestock products, farm supplies) and on fee- or interest-based
+  FBN Finance products (loans, refinancing, crop insurance) plus crop marketing
+  services. Cost management here is procurement- and finance-oriented rather than
+  API-consumption-oriented.
+notes: >-
+  Not reconciled against FOCUS as a cloud/API billing source - FBN does not bill
+  API usage. Meters below model farm-operation procurement and finance spend, not
+  developer API consumption. Verify rates and terms with FBN per product.
+sources:
+- https://www.fbn.com/direct
+- https://www.fbn.com/finance
+- https://www.fbn.com/about
+- https://focus.finops.org/focus-specification/v1-3/
+alignedWith:
+  framework: FinOps Foundation Framework
+  frameworkUrl: https://www.finops.org/framework/
+  dataSpec: FOCUS
+  dataSpecVersion: '1.3'
+  dataSpecUrl: https://focus.finops.org/focus-specification/v1-3/
+publisherName: Farmers Business Network
+serviceCategory: Marketplace and Financial Services
+billingModel:
+  pricingCategory: Transaction-Based
+  billingFrequency: Per Transaction
+  billingCurrency: USD
+  chargeCategories:
+  - Purchase
+  - Usage
+  - Adjustment
+focusColumns:
+  ServiceName: FBN Platform
+  ServiceCategory: Marketplace and Financial Services
+  ProviderName: Farmers Business Network
+  PublisherName: Farmers Business Network
+  InvoiceIssuerName: Farmers Business Network
+  BillingCurrency: USD
+  ChargeCategory: Purchase
+  PricingCategory: Transaction-Based
+meters:
+- name: marketplace_purchases
+  description: Spend on inputs and supplies purchased through the FBN Direct marketplace.
+  unit: orders
+  aggregation: sum
+  dimensions:
+  - account
+  - product_category
+- name: financing_balances
+  description: Outstanding balances and fees on FBN Finance loans, refinancing, and operating lines.
+  unit: contracts
+  aggregation: sum
+  dimensions:
+  - account
+  - product
+- name: insurance_premiums
+  description: Crop insurance premiums placed through FBN.
+  unit: policies
+  aggregation: sum
+  dimensions:
+  - account
+  - product
+- name: crop_marketing_fees
+  description: Service fees associated with crop marketing transactions and contracts.
+  unit: contracts
+  aggregation: sum
+  dimensions:
+  - account
+  - product
+principles:
+- name: Visibility
+  description: Track marketplace order spend and finance balances within the FBN member dashboard.
+- name: Allocation
+  description: Map input purchases and financing to fields, crops, and operating cost centers.
+- name: Optimization
+  description: Use FBN's transparent pricing and benchmarking to compare input costs and reduce cost of production.
+- name: Accountability
+  description: Review procurement and financing spend against the farm operating budget each season.
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com

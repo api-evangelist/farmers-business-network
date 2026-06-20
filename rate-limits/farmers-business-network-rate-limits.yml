@@ -1,0 +1,41 @@
+specification: API Commons Rate Limits
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/RateLimits
+provider: Farmers Business Network
+providerId: farmers-business-network
+created: '2026-06-20'
+modified: '2026-06-20'
+reconciled: false
+tags:
+- AgTech
+- Agriculture
+- Marketplace
+- Farm Analytics
+- AI Advisor
+- Rate Limiting
+- Quotas
+- Throttling
+description: >-
+  FBN does not publish a public or partner developer API, so there are no
+  documented API rate limits, quotas, or throttling policies. The FBN Direct
+  marketplace, analytics, crop marketing, finance tools, and the Norm AI advisor
+  are delivered through authenticated member-facing web and mobile apps. Any
+  request shaping that exists is internal to those applications and is not
+  documented for third-party developers.
+notes: >-
+  Not reconciled - no developer API or rate-limit documentation exists to
+  verify. Revisit if FBN publishes a developer program with documented limits.
+sources:
+- https://www.fbn.com/
+- https://www.fbn.com/about
+responseCodes: {}
+limits: []
+policies:
+- name: No Public API
+  description: >-
+    FBN does not expose a documented public developer API; consequently no
+    rate-limit, quota, or throttling policy is published for external
+    integrators.
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com

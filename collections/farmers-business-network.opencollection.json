@@ -1,0 +1,9 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Farmers Business Network API",
+    "version": "0.0",
+    "description": "Farmers Business Network (FBN) does not publish a public or partner developer API. Its FBN Direct marketplace, analytics, crop marketing, finance tools, and the Norm AI advisor are delivered through authenticated member-facing web and mobile apps. This collection is intentionally empty of request items because no public REST endpoints are documented. See review.yml for the API-availability finding."
+  },
+  "items": []
+}

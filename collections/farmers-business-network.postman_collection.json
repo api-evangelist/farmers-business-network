@@ -1,0 +1,15 @@
+{
+  "info": {
+    "_postman_id": "f0b1a2c3-d4e5-4678-9abc-fbn00000001",
+    "name": "Farmers Business Network API",
+    "description": "Farmers Business Network (FBN) does not publish a public or partner developer API. Its FBN Direct marketplace, analytics, crop marketing, finance tools, and the Norm AI advisor are delivered through authenticated member-facing web and mobile apps. This collection is intentionally empty of request items because no public REST endpoints are documented. See review.yml for the API-availability finding.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "https://www.fbn.com"
+    }
+  ]
+}

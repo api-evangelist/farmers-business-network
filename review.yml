@@ -1,0 +1,65 @@
+aid: farmers-business-network
+name: Farmers Business Network
+review:
+  question: Does Farmers Business Network expose a documented public or partner developer API?
+  answer: false
+  date: '2026-06-20'
+  reviewer: API Evangelist
+  asyncapiSpecCreated: false
+  asyncapiScopeNote: |
+    No AsyncAPI document was created. FBN documents no streaming, WebSocket, SSE,
+    webhook, or event-driven surface for external developers. There is no
+    real-time API to model.
+findings:
+  summary: |
+    Farmers Business Network (FBN) does not publish a public or partner
+    developer API as of the review date. FBN is a membership platform whose
+    capabilities - the FBN Direct inputs marketplace, FBN Insights analytics and
+    seed benchmarking, FBN Crop Marketing, FBN Finance, and the Norm AI agronomy
+    advisor - are delivered exclusively through authenticated member-facing web
+    and mobile applications. No developer portal, API reference, OpenAPI
+    definition, SDK, API keys, or partner integration program is documented on
+    fbn.com or in FBN's public materials. The internal web/mobile apps
+    necessarily call backend services, but none of those are documented or
+    offered to third-party developers. The OpenAPI artifact in this repo
+    therefore uses an empty paths object, and the rate-limits and FinOps
+    artifacts are marked not reconciled because there is no API billing or
+    throttling to reconcile.
+  transports:
+    - protocol: REST
+      scheme: https
+      documented: false
+      note: No public REST API base URL or endpoints are documented for external developers.
+    - protocol: WebSocket
+      scheme: wss
+      documented: false
+      note: No WebSocket surface is documented.
+    - protocol: SSE
+      scheme: https
+      documented: false
+      note: No Server-Sent Events surface is documented for developers.
+  endpointsConfirmedRest: []
+sources:
+  - url: https://www.fbn.com/
+    type: Website
+    note: Homepage markets membership products; no developer or API navigation.
+  - url: https://www.fbn.com/about
+    type: Documentation
+    note: Describes the platform, free membership, and member counts; no API program.
+  - url: https://www.fbn.com/norm
+    type: Documentation
+    note: Norm is an in-app AI advisor for members; no public API access described.
+  - url: https://www.fbn.com/signup/free-membership
+    type: Documentation
+    note: Free membership unlocks platform features; no developer tier or API keys.
+actions:
+  asyncapiPath: null
+  apisYmlUpdated: true
+  reason: |
+    No API surface exists to document beyond product/platform features. The
+    apis.yml entries describe FBN's five product surfaces with humanURLs and
+    explicitly note that no public developer API is documented. No AsyncAPI was
+    authored because no streaming or event surface is published.
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com

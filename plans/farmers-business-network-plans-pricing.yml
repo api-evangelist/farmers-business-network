@@ -1,0 +1,106 @@
+specification: API Commons Plans
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/Plans
+provider: Farmers Business Network
+providerId: farmers-business-network
+created: '2026-06-20'
+modified: '2026-06-20'
+reconciled: true
+tags:
+- AgTech
+- Agriculture
+- Marketplace
+- Farm Analytics
+- AI Advisor
+- Plans
+description: >-
+  FBN membership is free for farmers and unlocks the full platform: the FBN
+  Direct inputs marketplace, FBN Insights analytics and seed benchmarking, crop
+  marketing tools, and the Norm AI agronomy advisor. There is no API plan,
+  subscription tier, or metered developer pricing because FBN does not expose a
+  public developer API. Revenue is transactional and fee-based - members pay for
+  the inputs and supplies they purchase through FBN Direct, for financing and
+  insurance products through FBN Finance, and through crop marketing services.
+notes: >-
+  Plan structure reflects FBN's free-membership consumer/product model, not API
+  product tiers. No developer API pricing exists to reconcile; the free
+  membership and fee-based service model is documented from FBN's public pages.
+sources:
+- https://www.fbn.com/signup/free-membership
+- https://www.fbn.com/about
+- https://www.fbn.com/direct
+plans:
+- id: fbn-free-membership
+  name: Free Membership
+  type: free
+  description: >-
+    Free FBN membership for farmers, unlocking marketplace access, analytics,
+    crop marketing tools, the Norm AI advisor, and community resources. No
+    membership fee.
+  entries:
+  - label: Membership
+    name: membership
+    type: free
+    metric: account
+    limit: -1
+    timeFrame: year
+    geo: US-CA
+    unit: 1
+    price: free
+    userMultiplied: false
+  elements:
+  - name: FBN Direct Inputs Marketplace
+  - name: FBN Analytics and Insights
+  - name: FBN Crop Marketing
+  - name: Norm AI Advisor
+  - name: Community and Resources
+- id: fbn-marketplace-purchases
+  name: FBN Direct Purchases
+  type: usage
+  description: >-
+    Transactional spend on crop protection, seed, fertilizer, livestock
+    products, and farm supplies bought through the FBN Direct marketplace,
+    priced per product with direct-to-farm delivery.
+  entries:
+  - label: Product Purchases
+    name: product_purchases
+    type: usage
+    metric: orders
+    limit: -1
+    timeFrame: usage
+    geo: US-CA
+    unit: 1
+    price: per product / per order; see marketplace listings
+    userMultiplied: false
+  elements:
+  - name: Crop Protection
+  - name: Seed
+  - name: Fertilizer
+  - name: Livestock and Animal Health
+  - name: Farm Supplies
+- id: fbn-finance-services
+  name: FBN Finance and Services
+  type: usage
+  description: >-
+    Fee- and interest-based agricultural financing, refinancing, and crop
+    insurance, plus crop marketing services. Terms vary by product and
+    eligibility.
+  entries:
+  - label: Financing and Insurance
+    name: financing_insurance
+    type: usage
+    metric: contract
+    limit: -1
+    timeFrame: usage
+    geo: US-CA
+    unit: 1
+    price: rates and fees vary by product; contact FBN
+    userMultiplied: false
+  elements:
+  - name: Operating Lines and Loans
+  - name: Equipment and Land Financing
+  - name: Crop Insurance
+  - name: Crop Marketing Services
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
