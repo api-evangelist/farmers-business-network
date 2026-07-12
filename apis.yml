@@ -105,6 +105,8 @@ apis:
     delivered through FBN's web and mobile apps; no public developer API is
     documented.
 common:
+- type: DomainSecurity
+  url: security/farmers-business-network-domain-security.yml
 - type: LinkedIn
   url: https://www.linkedin.com/company/farmers-business-network
 - type: Website
