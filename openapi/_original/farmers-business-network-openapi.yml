@@ -1,0 +1,24 @@
+openapi: 3.0.1
+info:
+  title: Farmers Business Network API
+  description: >-
+    Farmers Business Network (FBN) operates a membership platform for farmers
+    spanning the FBN Direct inputs marketplace, seed and farm analytics, crop
+    marketing, agricultural financing, and the Norm AI agronomy advisor. As of
+    the research date (2026-06-20), FBN does not publish a public or partner
+    developer API, OpenAPI definition, or developer portal. These capabilities
+    are delivered exclusively through FBN's member-facing web application and
+    mobile apps behind authentication. No public REST endpoints are documented,
+    so this specification intentionally contains an empty paths object. It will
+    be populated if and when FBN publishes documented developer endpoints.
+  termsOfService: https://www.fbn.com/legal/terms-of-service
+  contact:
+    name: Farmers Business Network Support
+    url: https://www.fbn.com/contact
+  version: '0.0'
+servers:
+  - url: https://www.fbn.com
+    description: >-
+      FBN member-facing web property. Not a documented API base URL; listed for
+      reference only.
+paths: {}

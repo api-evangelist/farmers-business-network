@@ -1,0 +1,14 @@
+{
+  "provider": "farmers-business-network",
+  "sources": [
+    "farmers-business-network-openapi.yml"
+  ],
+  "outputs": [],
+  "archived": [
+    "archived farmers-business-network-openapi.yml"
+  ],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
