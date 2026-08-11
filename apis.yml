@@ -42,7 +42,7 @@ apis:
   properties:
   - url: https://www.fbn.com/direct
     type: Documentation
-  - url: openapi/farmers-business-network-openapi.yml
+  - url: openapi/_original/farmers-business-network-openapi.yml
     type: OpenAPI
   description: FBN Direct is the member-facing ecommerce marketplace offering 7,200+
     crop protection, seed, fertilizer, livestock, and farm supply products at
@@ -59,7 +59,7 @@ apis:
   properties:
   - url: https://www.fbn.com/insights
     type: Documentation
-  - url: openapi/farmers-business-network-openapi.yml
+  - url: openapi/_original/farmers-business-network-openapi.yml
     type: OpenAPI
   description: FBN Insights and seed analytics deliver personalized benchmarking,
     seed performance analysis, and crowdsourced agronomic data from the network.
@@ -76,7 +76,7 @@ apis:
   properties:
   - url: https://www.fbn.com/crop-marketing
     type: Documentation
-  - url: openapi/farmers-business-network-openapi.yml
+  - url: openapi/_original/farmers-business-network-openapi.yml
     type: OpenAPI
   description: FBN Crop Marketing lets members review local bids, manage contracts,
     track scale tickets, and receive payments through a technology platform.
@@ -93,7 +93,7 @@ apis:
   properties:
   - url: https://www.fbn.com/finance
     type: Documentation
-  - url: openapi/farmers-business-network-openapi.yml
+  - url: openapi/_original/farmers-business-network-openapi.yml
     type: OpenAPI
   description: FBN Finance offers agricultural operating lines, equipment and land
     loans, refinancing, and crop insurance to member farms. Delivered as a
@@ -109,7 +109,7 @@ apis:
   properties:
   - url: https://www.fbn.com/norm
     type: Documentation
-  - url: openapi/farmers-business-network-openapi.yml
+  - url: openapi/_original/farmers-business-network-openapi.yml
     type: OpenAPI
   description: Norm is FBN's LLM-based AI agronomy advisor, answering members'
     questions on seed selection, crop protection, pest and disease management,
