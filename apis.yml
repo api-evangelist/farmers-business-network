@@ -36,6 +36,10 @@ apis:
   tags:
   - Marketplace
   - Inputs
+  - E-Commerce
+  tags_raw:
+  - Marketplace
+  - Inputs
   - Ecommerce
   image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://www.fbn.com/direct
