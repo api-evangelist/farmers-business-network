@@ -8,6 +8,17 @@ description: Farmers Business Network (FBN) is a farmer-to-farmer ag-tech networ
   marketing, agricultural financing, and Norm, an AI agronomy advisor. FBN exposes
   these as member-facing web and mobile product surfaces; it does not publish a
   public or partner developer API.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: free
   onboarding: unknown
