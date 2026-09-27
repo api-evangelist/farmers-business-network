@@ -112,10 +112,10 @@ apis:
     type: OpenAPI
   description: Norm is FBN's LLM-based AI agronomy advisor, answering members' questions on seed selection, crop protection, pest and disease management, irrigation, fertilization, and rotation. Free for registered members and delivered through FBN's web and mobile apps; no public developer API is documented.
 - aid: farmers-business-network:member-platform
+  x-published: false
   name: FBN Member Platform
   description: The fbn.com member application - account, farm, and field management plus access to agronomy insights, pricing transparency, and marketplace ordering. Member-only product, not a public API.
   humanURL: https://www.fbn.com/
-  baseURL: https://www.fbn.com/
   tags:
   - Member
   - Farm Management
@@ -128,6 +128,10 @@ apis:
   humanURL: https://www.fbn.com/analytics/data-storage-integration
   baseURL: https://www.fbn.com/analytics/data-storage-integration
   tags:
+  - Precision Agriculture
+  - Data Integration
+  - Analytics
+  tags_raw:
   - Precision Ag
   - Data Integration
   - Analytics
