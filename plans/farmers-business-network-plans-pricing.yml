@@ -109,3 +109,38 @@ plans:
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  - metered
+  units:
+  - negotiated
+  - object
+  - transaction
+  plans:
+  - name: Free Membership
+    access: free
+    model: free
+    model_how: derived
+    units:
+    - object
+    periods:
+    - year
+  - name: FBN Direct Purchases
+    access: other
+    model: metered
+    model_how: stated
+    units:
+    - transaction
+    periods:
+    - per-use
+  - name: FBN Finance and Services
+    access: other
+    model: metered
+    model_how: stated
+    units:
+    - negotiated
+    periods:
+    - per-use
