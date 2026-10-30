@@ -1,4 +1,4 @@
-# Farmers Business Network (farmers-business-network)
+# Farmers Business Network
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,128 +66,113 @@
 
 Farmers Business Network (FBN) is a farmer-to-farmer ag-tech network serving 117,000+ member farms across the U.S. and Canada. Its membership platform pairs the FBN Direct inputs marketplace with seed and farm analytics, crop marketing, agricultural financing, and Norm, an AI agronomy advisor. FBN exposes these as member-facing web and mobile product surfaces; it does not publish a public or partner developer API.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/farmers-business-network/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/farmers-business-network/refs/heads/main/apis.yml)
+**Areas:** AgTech · Agriculture · Marketplace · Farm Analytics · AI Advisor
 
-## Tags
+## Farmers Business Network on APIs.io
 
-- AgTech
-- Agriculture
-- Marketplace
-- Farm Analytics
-- AI Advisor
+Everything profiled for Farmers Business Network is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/farmers-business-network/](https://apis.io/providers/farmers-business-network/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (8)
 
-- **Created:** 2026-06-20
-- **Modified:** 2026-06-20
+- [FBN Direct Inputs Marketplace](https://apis.io/apis/farmers-business-network/fbn-direct-inputs-marketplace/) — FBN Direct is the member-facing ecommerce marketplace offering 7,200+ crop protection, seed, fertilizer, livestock, and farm supply products at transparent…
+- [FBN Analytics and Insights](https://apis.io/apis/farmers-business-network/fbn-analytics/) — FBN Insights and seed analytics deliver personalized benchmarking, seed performance analysis, and crowdsourced agronomic data from the network. Delivered as…
+- [FBN Crop Marketing](https://apis.io/apis/farmers-business-network/fbn-crop-marketing/) — FBN Crop Marketing lets members review local bids, manage contracts, track scale tickets, and receive payments through a technology platform. Delivered as a…
+- [FBN Finance](https://apis.io/apis/farmers-business-network/fbn-finance/) — FBN Finance offers agricultural operating lines, equipment and land loans, refinancing, and crop insurance to member farms. Delivered as a member-facing…
+- [Norm AI Advisor](https://apis.io/apis/farmers-business-network/norm-ai-advisor/) — Norm is FBN's LLM-based AI agronomy advisor, answering members' questions on seed selection, crop protection, pest and disease management, irrigation,…
+- [FBN Member Platform](https://apis.io/apis/farmers-business-network/member-platform/) — The fbn.com member application - account, farm, and field management plus access to agronomy insights, pricing transparency, and marketplace ordering.…
+- [FBN Analytics](https://apis.io/apis/farmers-business-network/analytics/) — Precision-agronomy product that ingests planting, application, and harvest data from 60+ precision monitor types, normalizes it, and benchmarks performance…
+- [FBN Direct Marketplace](https://apis.io/apis/farmers-business-network/marketplace/) — Direct-to-farmer e-commerce marketplace for crop inputs - seed, crop protection, adjuvants, and animal health - with transparent pricing and direct-to-farm…
 
-## APIs
+### Published properties
 
-### FBN Direct Inputs Marketplace
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-FBN Direct is the member-facing ecommerce marketplace offering 7,200+ crop protection, seed, fertilizer, livestock, and farm supply products at transparent pricing with direct-to-farm delivery. Delivered as a web and mobile product surface; no public developer API is documented.
+#### Collections (1)
 
-- **Human URL:** [https://www.fbn.com/direct](https://www.fbn.com/direct)
+Postman and Open Collection request collections.
 
-#### Tags
+- [Farmers Business Network API](https://apis.io/collections/farmers-business-network/open-farmers-business-network/)
 
-- Marketplace
-- Inputs
-- Ecommerce
+#### Security (1)
 
-#### Properties
+Authentication, trust centre, and vulnerability disclosure.
 
-- [Documentation](https://www.fbn.com/direct)
-- [OpenAPI](openapi/farmers-business-network-openapi.yml) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
-- [Postman Collection](collections/farmers-business-network.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/farmers-business-network.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+- [Farmers Business Network Domain Security](https://apis.io/security/farmers-business-network/farmers-business-network-domain-security/)
 
-### FBN Analytics and Insights
+#### Plans and pricing (1)
 
-FBN Insights and seed analytics deliver personalized benchmarking, seed performance analysis, and crowdsourced agronomic data from the network. Delivered as a member-facing product surface; no public developer API is documented.
+Published plans, tiers and prices.
 
-- **Human URL:** [https://www.fbn.com/insights](https://www.fbn.com/insights)
+- [Farmers Business Network Plans Pricing](https://apis.io/plans/farmers-business-network/farmers-business-network-plans-pricing/)
 
-#### Tags
+#### Rate limits (1)
 
-- Analytics
-- Benchmarking
-- Seed
+Published request limits.
 
-#### Properties
+- [Farmers Business Network Rate Limits](https://apis.io/rate-limits/farmers-business-network/farmers-business-network-rate-limits/)
 
-- [Documentation](https://www.fbn.com/insights)
-- [OpenAPI](openapi/farmers-business-network-openapi.yml) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
-- [Postman Collection](collections/farmers-business-network.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/farmers-business-network.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+#### FinOps (1)
 
-### FBN Crop Marketing
+What the API costs to run, by operation.
 
-FBN Crop Marketing lets members review local bids, manage contracts, track scale tickets, and receive payments through a technology platform. Delivered as a member-facing product surface; no public developer API is documented.
+- [Farmers Business Network Finops](https://apis.io/finops/farmers-business-network/farmers-business-network-finops/)
 
-- **Human URL:** [https://www.fbn.com/crop-marketing](https://www.fbn.com/crop-marketing)
+## Where to find this API
 
-#### Tags
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- Crop Marketing
-- Grain
-- Contracts
-
-#### Properties
-
-- [Documentation](https://www.fbn.com/crop-marketing)
-- [OpenAPI](openapi/farmers-business-network-openapi.yml) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
-- [Postman Collection](collections/farmers-business-network.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/farmers-business-network.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-
-### FBN Finance
-
-FBN Finance offers agricultural operating lines, equipment and land loans, refinancing, and crop insurance to member farms. Delivered as a member-facing product surface; no public developer API is documented.
-
-- **Human URL:** [https://www.fbn.com/finance](https://www.fbn.com/finance)
-
-#### Tags
-
-- Finance
-- Lending
-- Insurance
-
-#### Properties
-
-- [Documentation](https://www.fbn.com/finance)
-- [OpenAPI](openapi/farmers-business-network-openapi.yml) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
-- [Postman Collection](collections/farmers-business-network.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/farmers-business-network.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-
-### Norm AI Advisor
-
-Norm is FBN's LLM-based AI agronomy advisor, answering members' questions on seed selection, crop protection, pest and disease management, irrigation, fertilization, and rotation. Free for registered members and delivered through FBN's web and mobile apps; no public developer API is documented.
-
-- **Human URL:** [https://www.fbn.com/norm](https://www.fbn.com/norm)
-
-#### Tags
-
-- AI Advisor
-- Agronomy
-- LLM
-
-#### Properties
-
-- [Documentation](https://www.fbn.com/norm)
-- [OpenAPI](openapi/farmers-business-network-openapi.yml) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
-- [Postman Collection](collections/farmers-business-network.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/farmers-business-network.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-
-## Common Properties
-
-- [LinkedIn](https://www.linkedin.com/company/farmers-business-network)
 - [Website](https://www.fbn.com)
 - [Documentation](https://www.fbn.com/community/blog)
-- [Plans](plans/farmers-business-network-plans-pricing.yml)
-- [Rate Limits](rate-limits/farmers-business-network-rate-limits.yml)
-- [Fin Ops](finops/farmers-business-network-finops.yml)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 14.1** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 25.1 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 7.9 |
+
+**Agent readiness 13.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/farmers-business-network/](https://apis.io/providers/farmers-business-network/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Farmers Business Network: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/farmers-business-network/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
